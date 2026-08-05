@@ -1,0 +1,7 @@
+permission = True
+fees_paid = True
+
+if permission and fees_paid:
+    print("Trip Approved")
+else:
+    print("Trip Not Approved")
